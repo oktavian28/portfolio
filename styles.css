@@ -1,0 +1,141 @@
+/* @font-face {
+  font-family: 'Poppins';
+  src: url(../fonts/Poppins-Regular.ttf);
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-image: url(assets/img/jalan.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  max-width: 1440px;
+  font-size: 10px;
+}
+
+/* Navbar */
+
+nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.4rem 14rem;
+  color: #263238;
+  border-bottom: 1px solid #e6e9ec;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+
+nav .nav-brand {
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+nav .nav-section {
+  display: flex;
+  align-items: center;
+}
+
+nav .nav-section ul {
+  list-style: none;
+}
+
+nav .nav-section ul li {
+  display: inline-block;
+  margin-left: 2rem;
+}
+
+nav .nav-section ul li a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: all 0.3s;
+}
+
+nav .nav-brand:hover,
+nav .nav-section ul li a:hover {
+  color: #407bff;
+}
+
+/* End Navbar */
+
+/* Header */
+
+header {
+  display: flex;
+  color: #ffffff;
+}
+
+header .bagian-satu {
+  flex-basis: 50%;
+  padding: 11%;
+}
+
+header .bagian-satu .text-hello {
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+header .bagian-satu p {
+  font-size: 1.5rem;
+}
+
+header .bagian-satu .btn-info {
+  margin-top: 1.5rem;
+  padding: 1rem 4rem;
+  font-size: 1.5rem;
+  background-color: #9340ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 2rem;
+  transition: all 0.3s;
+}
+
+header .bagian-satu .btn-info1 {
+  margin-top: 1.5rem;
+  padding: 1rem 4rem;
+  font-size: 1.5rem;
+  background-color: #ff40b6;
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  transition: all 0.3s;
+}
+
+header .bagian-satu .btn-info2 {
+  margin-top: 1.5rem;
+  padding: 1rem 4rem;
+  font-size: 1.5rem;
+  background-color: #ffa940;
+  color: rgb(201, 35, 35);
+  border: none;
+  border-radius: 2rem;
+  transition: all 0.3s;
+}
+
+header .bagian-satu.btn-info2 {
+  box-shadow: inset 0 0 8px rgba(227, 225, 225, 0.926);
+  transform: scale(0.95);
+  cursor: pointer;
+}
+
+header .bagian-dua {
+  flex-basis: 50%;
+  margin-top: 2%;
+  margin-right: 10%;
+  weight: 250px;
+  height: 250px;
+}
+
+img {
+  weight: 300px;
+  height: 300px;
+}
+
+/* End Header */
